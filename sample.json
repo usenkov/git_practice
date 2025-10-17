@@ -1,4 +1,5 @@
 {
     "bug_fixed":"critical",
-    "feature": "cool feature"
+    "feature": "cool feature",
+    "schema": "new schema"
 }
