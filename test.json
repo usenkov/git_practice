@@ -1,0 +1,32 @@
+{
+    "project": {
+        "name": "git_practice",
+        "version": "1.0.0",
+        "description": "Sample JSON for testing and demo",
+        "author": "Your Name",
+        "license": "MIT"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"No tests specified\" && exit 0"
+    },
+    "dependencies": {
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "eslint": "^8.0.0"
+    },
+    "files": [
+        "index.js",
+        "README.md",
+        "test.json"
+    ],
+    "sampleData": [
+        { "id": 1, "name": "Alice", "active": true },
+        { "id": 2, "name": "Bob", "active": false }
+    ],
+    "settings": {
+        "port": 3000,
+        "verbose": false
+    }
+}
